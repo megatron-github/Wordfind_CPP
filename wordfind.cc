@@ -1,16 +1,14 @@
 #include <wordgrid.h>
 /* ##########################################################################
-# #
-# THE NAME OF THE FILE #          Wordfind.cc
-# YOUR NAME #                     Truong Pham
-# THE NAME OF THE ASSIGNMENT #    Wordfind
-# THE DATE #                      2/4/19
-# #
-#   Given a grid of words, build a program to search the wanted word in any of
-#       the 8 directions. If the word is found, the program have print "Found"
-#       and the grid with the letters of the word in uppercase.  Otherwise,
-#       the program have to print "Not Found," while the grid is unchanged.
-# #
+#
+# FILE          Wordfind.cc
+#
+# Description: Given a grid of words, build a program to search the wanted word
+#              in any of the 8 directions. If the word is found, the program
+#              have print "Found" and the grid with the letters of the word in
+#              uppercase.  Otherwise, the program have to print "Not Found,"
+#              while the grid is unchanged.
+#
 ########################################################################## */
 
 void capitalize_found_word(wordgrid & grid, string word,
@@ -114,9 +112,7 @@ bool find_pattern(wordgrid & grid, string word,
   bool confirm_pattern(wordgrid & grid, string word, int start_row,
                        int start_col, int dr_row, int dr_col);
 
-  // Cite: Lucas Barusek
-  // Desc: How to create the eigth-directions by for-loops
-
+  // Eigth-directions by for-loops
   // For each direction created by the for-loops, check if a pattern of letters
   // is found in that direction.
   for(int i = -1; i <= 1; i++){
