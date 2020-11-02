@@ -1,7 +1,7 @@
 #include <wordgrid.h>
 /* #############################################################################
 #
-# FILE          Wordfind.cc
+# FILE          wordfind.cc
 #
 # Description: Given a grid of words, build a program to search the wanted word
 #              in any of the 8 directions. If the word is found, the program
