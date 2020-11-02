@@ -1,4 +1,4 @@
-#include <wordgrid.h>
+#include "wordgrid.h"
 /* #############################################################################
 #
 # FILE          wordfind.cc
