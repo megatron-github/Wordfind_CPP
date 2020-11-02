@@ -7,7 +7,7 @@ wordfind.o: wordfind.cc
 	g++ -c wordfind.cc
 
 
-# Campbell only below:
+# Provided by Professor Allistair Campbell only below:
 
 SKELDIR=/home/acampbel/111/skel/wordfind
 
