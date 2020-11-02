@@ -1,5 +1,5 @@
 #include <wordgrid.h>
-/* ##########################################################################
+/* #############################################################################
 #
 # FILE          Wordfind.cc
 #
@@ -9,7 +9,7 @@
 #              uppercase.  Otherwise, the program have to print "Not Found,"
 #              while the grid is unchanged.
 #
-########################################################################## */
+############################################################################# */
 
 void capitalize_found_word(wordgrid & grid, string word,
                            int word_row[], int word_col[]){
