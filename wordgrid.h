@@ -1,4 +1,5 @@
-// Provided by Professor Campbell
+/* The code provided by Professor Alistair Campbell */
+
 #include <iostream>
 
 using namespace std;
